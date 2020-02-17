@@ -10,10 +10,23 @@ public class TestDemo {
     }
 
     @Test
+    public void whenGiven_Value_of_FirstName_should_Return_False() {
+        boolean b=UserRegistration.checkLastName("pRa@123");
+        Assert.assertFalse(b);
+    }
+
+    @Test
     public void whenGiven_Value_of_LastName_should_Return_True() {
         UserRegistration obj2 = new UserRegistration();
         boolean result = obj2.checkLastName("Palkar");
         Assert.assertTrue(result);
     }
+
+    @Test
+    public void whenGiven_Value_of_LastName_should_Return_False() {
+        boolean b=UserRegistration.checkLastName("pAlkar");
+        Assert.assertFalse(b);
+    }
+
 
 }
