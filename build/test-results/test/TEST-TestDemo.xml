@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestDemo" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-17T09:33:23" hostname="admin1-H110M-H" time="0.005">
+<testsuite name="TestDemo" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-17T09:48:00" hostname="admin1-H110M-H" time="0.001">
   <properties/>
-  <testcase name="whenGiven_Value_of_FirstName_should_Return_True" classname="TestDemo" time="0.005"/>
+  <testcase name="whenGiven_Value_of_LastName_should_Return_True" classname="TestDemo" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

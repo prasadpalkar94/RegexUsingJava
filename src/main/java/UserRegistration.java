@@ -8,5 +8,9 @@ public class UserRegistration {
         return matcher.matches();
     }
 
-
+    public boolean checkLastName(String lastName) {
+        Pattern pattern = Pattern.compile(name);
+        Matcher matcher = pattern.matcher(lastName);
+        return matcher.matches();
+    }
 }
