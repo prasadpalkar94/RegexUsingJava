@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestDemo" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-17T10:33:09" hostname="admin1-H110M-H" time="0.002">
-  <properties/>
-  <testcase name="whenGiven_Value_of_FirstName_should_Return_False" classname="TestDemo" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
