@@ -28,5 +28,10 @@ public class TestDemo {
         Assert.assertFalse(b);
     }
 
-
+    @Test
+    public void check_Whether_Given_Email_IS_Valid() {
+        UserRegistration obj3 = new UserRegistration();
+        boolean result = obj3.checkEmail("abc_123@gmail.com");
+        Assert.assertTrue(result);
+    }
 }
